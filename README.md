@@ -1,4 +1,4 @@
-`# Data Analysis and ETL Pipeline for Business insights
+# Data Analysis and ETL Pipeline for Business insights
 
 ## Table of Contents
 
