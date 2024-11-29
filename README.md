@@ -116,7 +116,7 @@ Created foreign keys between the tables (e.g., `Client_Interaction` references `
 
 * * * * *
 
-### Power BI Reporting
+## Power BI Reporting
 
 After transforming the data into SQL Server, it was imported into **Power BI** to generate meaningful visualizations.
 
@@ -130,23 +130,77 @@ Power BI reports were designed to enable real-time updates as new data was loade
 
 * * * * *
 
-### Results and Insights
+## Results and Insights
 
-1.  **Sales Performance**: The data analysis revealed that the company saw a significant increase in sales during peak seasons, especially around holidays.
-2.  **Client Segmentation**: Clients with high lifetime value (LTV) contributed disproportionately to total revenue. These clients should be targeted for retention and upselling.
-3.  **Top Performing Projects**: Certain project domains (e.g., Domain A) generated the highest proposed costs and revenue.
-4.  **Regional Insights**: The North American region consistently outperformed other regions in terms of sales and project engagement.
+The Power BI dashboards provided key insights into project costs, client distribution, project statuses, and responses. Below are the main findings:
 
-* * * * *
+### Total Cost by Region
+- **Asia**: $0.22M
+- **South America**: $0.20M
+- **Europe**: $0.19M
+- **North America**: $0.19M
+- **Australia**: $0.02M
 
-### Recommendations
+**Key Insight**: Focus on expanding in Asia-Pacific, as it has the highest project costs.
 
-Based on the insights from the analysis, we recommend the following:
+### Total Clients by Region
+- **North America**: 26 clients
+- **Asia**: 23 clients
+- **Europe**: 20 clients
+- **South America**: 18 clients
+- **Australia**: 2 clients
 
-1.  **Target Peak Seasons for Marketing**: Marketing efforts should be ramped up during peak seasons to capitalize on higher demand.
-2.  **Focus on High-Value Clients**: Upsell and cross-sell opportunities should be focused on clients with high lifetime value.
-3.  **Promote High-Performing Domains**: Domains that perform well in terms of revenue and project engagements should be prioritized for future investments and marketing.
-4.  **Expand Region-Specific Strategies**: Develop tailored strategies for high-performing regions to further increase market penetration.
+**Key Insight**: Opportunity to grow in Australia, which has the lowest client count.
+
+### Clients by Location in the USA
+- **California** (San Francisco & Los Angeles) and **Florida** (Miami) have the highest concentrations of clients.
+
+**Key Insight**: Use location-based data to target marketing efforts in high-density areas.
+
+### Domain with Highest Cost
+- **Digital**: $24K
+- **Blockchain**: $21K
+- **Data**: $20K
+
+**Key Insight**: Focus on high-cost domains like Digital and Blockchain for future investments.
+
+### Status of Projects
+- **Negotiating**: 25.56% of projects
+- **Declined**: 17.78% of projects
+
+**Key Insight**: A large portion of projects is still in the negotiating phase, and there is room for improvement in project conversion rates.
+
+### Count of Responses
+- **Yes**: 27.78%
+- **No**: 71.11%
+
+**Key Insight**: A high number of negative responses indicates a need to improve proposals and engagement strategies.
+
+### Highest Revenue by Client
+- **Robert Martinez**: $72K
+- **Sarah Miller**: $62K
+- **Rachel Adams**: $53K
+
+**Key Insight**: Clients with high lifetime value, like Robert Martinez, should be prioritized for retention.
+
+### Cost Efficiency
+- **Fluctuating Total Costs**: The sum of total costs fluctuates significantly across different projects.
+
+**Key Insight**: Monitor cost efficiency regularly to ensure better budget management.
+
+---
+
+## Key Insights and Strategic Actions
+
+1. **Focus on High-Performing Regions**: Prioritize expansion in **Asia** and **North America**, with **Australia** as a potential growth market.
+2. **Target High-Value Clients for Retention**: Engage high-revenue clients like **Robert Martinez** and **Sarah Miller** for long-term business.
+3. **Optimize Project Pipeline**: Convert projects in the **Negotiating** and **Interview** stages to active projects. Investigate reasons for declines.
+4. **Improve Response Rates**: Refine project proposals to increase the "Yes" response rate.
+5. **Cost Efficiency Monitoring**: Regularly track cost fluctuations to maintain profitability.
+6. **Prioritize High-Cost Domains**: Invest further in **Digital** and **Blockchain** domains, which drive the highest costs and revenue.
+
+These insights provide actionable recommendations to improve business performance, enhance client engagement, and optimize project management.
+
 
 * * * * *
 
