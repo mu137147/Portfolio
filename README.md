@@ -87,6 +87,15 @@ The data sources for this project include:
  - **SSIS (SQL Server Integration Services)** is used to automate the ETL process, transferring the data from the Excel master worksheet to SQL Server on a scheduled basis (every midnight).
  - SSIS ensures that the data in SQL Server is always up-to-date.
 
+ #### SSIS workflow in Visual Studio
+
+ ![workflow](https://github.com/user-attachments/assets/455932d6-17ab-4c18-a55c-be9c4da315cd)
+
+ #### Successful Completion of SSIS Job scheduled in SQL Server
+
+ ![sql server job](https://github.com/user-attachments/assets/cafafd68-38c1-44aa-80d7-a589c483a2cf)
+
+
 
 * * * * *
 
@@ -128,6 +137,11 @@ After transforming the data into SQL Server, it was imported into **Power BI** t
 
 Power BI reports were designed to enable real-time updates as new data was loaded into SQL Server daily via SSIS.
 
+#### PowerBi Dashboard
+
+![dashboard](https://github.com/user-attachments/assets/6bb08d90-e9ef-40c3-8b99-afb8113cbb51)
+
+
 * * * * *
 
 ## Results and Insights
@@ -135,13 +149,17 @@ Power BI reports were designed to enable real-time updates as new data was loade
 The Power BI dashboards provided key insights into project costs, client distribution, project statuses, and responses. Below are the main findings:
 
 ### Total Cost by Region
-- **Asia**: $0.22M
-- **South America**: $0.20M
-- **Europe**: $0.19M
-- **North America**: $0.19M
-- **Australia**: $0.02M
 
-**Key Insight**: Focus on expanding in Asia-Pacific, as it has the highest project costs.
+- **Asia**: $220,000
+- **South America**: $200,000
+- **Europe**: $190,000
+- **North America**: $190,000
+- **Australia**: $20,000
+
+
+**Key Insight**: Focus on expanding in Asia-Pacific, as it has the highest project costs.It is closely followed by South America,Europe and North America
+
+![cost by region](https://github.com/user-attachments/assets/d291a4a9-cac2-46b0-acfb-bb864a06b140)
 
 ### Total Clients by Region
 - **North America**: 26 clients
@@ -152,10 +170,15 @@ The Power BI dashboards provided key insights into project costs, client distrib
 
 **Key Insight**: Opportunity to grow in Australia, which has the lowest client count.
 
+![clients by region](https://github.com/user-attachments/assets/f59c1823-ac3a-4a84-9ec9-ca6cb5881c1e)
+
+
 ### Clients by Location in the USA
 - **California** (San Francisco & Los Angeles) and **Florida** (Miami) have the highest concentrations of clients.
 
 **Key Insight**: Use location-based data to target marketing efforts in high-density areas.
+
+
 
 ### Domain with Highest Cost
 - **Digital**: $24K
@@ -164,17 +187,32 @@ The Power BI dashboards provided key insights into project costs, client distrib
 
 **Key Insight**: Focus on high-cost domains like Digital and Blockchain for future investments.
 
-### Status of Projects
-- **Negotiating**: 25.56% of projects
-- **Declined**: 17.78% of projects
+![domain with highest cost](https://github.com/user-attachments/assets/f991b87e-3d33-490f-a333-61f3f514cf4d)
 
-**Key Insight**: A large portion of projects is still in the negotiating phase, and there is room for improvement in project conversion rates.
+
+### Status of Projects
+- **Applying**: 25.56 % of projects
+- **In Progress**: 18.89 % of projects
+- **Completed** 17.78 % of projects
+- **Declined**: 13.33 % of projects
+- **Interview** 12.22 % of projects
+- **Negotiating**: 11.11 % of projects
+
+
+
+**Key Insight**: **A relatively high percentage of "Declined" projects (13.33%)** indicates potential issues with proposal quality or project alignment, requiring better client targeting and proposal refinement.
+
+![status of projects](https://github.com/user-attachments/assets/76491842-a6d9-4e81-93bf-27c9700e4f88)
+
 
 ### Count of Responses
 - **Yes**: 27.78%
 - **No**: 71.11%
 
 **Key Insight**: A high number of negative responses indicates a need to improve proposals and engagement strategies.
+
+![response](https://github.com/user-attachments/assets/6bde14c0-04f3-47b3-bd3f-bf9c9be47578)
+
 
 ### Highest Revenue by Client
 - **Robert Martinez**: $72K
@@ -183,18 +221,29 @@ The Power BI dashboards provided key insights into project costs, client distrib
 
 **Key Insight**: Clients with high lifetime value, like Robert Martinez, should be prioritized for retention.
 
+![highest revenue by client](https://github.com/user-attachments/assets/53b8e917-5bd9-4603-b33c-f22fd5a90979)
+
+
 ### Cost Efficiency
 - **Fluctuating Total Costs**: The sum of total costs fluctuates significantly across different projects.
 
 **Key Insight**: Monitor cost efficiency regularly to ensure better budget management.
 
+![cost efficiency](https://github.com/user-attachments/assets/059e4c22-7f52-4e8b-ac21-6c8df81f3e9c)
+
+
 ---
 
 ## Key Insights and Strategic Actions
 
-1. **Focus on High-Performing Regions**: Prioritize expansion in **Asia** and **North America**, with **Australia** as a potential growth market.
+1. **Focus on High-Performing Regions**: Prioritize expansion in **Asia**,**Europe** and **North America**, with **South America** as a potential growth market.
 2. **Target High-Value Clients for Retention**: Engage high-revenue clients like **Robert Martinez** and **Sarah Miller** for long-term business.
-3. **Optimize Project Pipeline**: Convert projects in the **Negotiating** and **Interview** stages to active projects. Investigate reasons for declines.
+3. ### Key Insights from Project Status Distribution
+
+**High number of projects in the "Applying" stage (25.56%)** suggests a backlog, which could be slowing overall project progression. Streamlining this stage is essential to improve flow.
+   
+**Low completion rate (17.78%)** highlights the need for faster project closures, potentially by addressing delays in execution or resource allocation.
+
 4. **Improve Response Rates**: Refine project proposals to increase the "Yes" response rate.
 5. **Cost Efficiency Monitoring**: Regularly track cost fluctuations to maintain profitability.
 6. **Prioritize High-Cost Domains**: Invest further in **Digital** and **Blockchain** domains, which drive the highest costs and revenue.
